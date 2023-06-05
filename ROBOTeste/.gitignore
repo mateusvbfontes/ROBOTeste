@@ -227,5 +227,7 @@ _Pvt_Extensions
 # Paket dependency manager
 .paket/paket.exe
 
+.ROBOTeste/ClientApp/.angular/
+
 # FAKE - F# Make
 .fake/
