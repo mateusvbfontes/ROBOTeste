@@ -1,0 +1,7 @@
+<h1 id="tableLabel">Estado do Robo</h1>
+
+<p>Exibição do estado do Robo</p>
+
+<p *ngIf="!roboResponseModel"><em>Carregando...</em></p>
+
+<div>Estado do Robo: {{ roboResponseModel | json }}</div>
